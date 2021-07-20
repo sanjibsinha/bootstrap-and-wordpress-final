@@ -68,7 +68,7 @@
                   <a class="navbar-brand" href="<?php echo site_url( '/' ); ?>"
                     ><h1 class="font-weight-600 mt-3">Learn Everyday</h1></a>
                     <p>
-                      Flutter, WordPress, PHP, & Dart
+                      Flutter, WordPress, PHP, Dart
                     </p>
                     <p>
                     <?php get_search_form( ); ?>

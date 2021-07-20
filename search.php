@@ -1,6 +1,6 @@
 <?php get_header( ); ?>
 <main class="container">
-    <h1 class="alert-danger">Search</h1>
+    <h1 class="alert-danger">Search Results For <?php echo get_search_query(  ); ?></h1>
   <div class="page-banner__content container container--narrow">
       <h1 class="page-banner__title">
       <?php
