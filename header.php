@@ -66,9 +66,12 @@
                 </ul>
                 <div>
                   <a class="navbar-brand" href="<?php echo site_url( '/' ); ?>"
-                    ><h1 class="font-weight-600 mt-3">Sanjib Sinha | Articles Everyday</h1></a>
+                    ><h1 class="font-weight-600 mt-3">Learn Everyday</h1></a>
                     <p>
-                      Flutter, WordPress, PHP and Dart Tutorials & Books for All Learners
+                      Flutter, WordPress, PHP, & Dart
+                    </p>
+                    <p>
+                    <?php get_search_form( ); ?>
                     </p>
                 </div>
                 <div class="d-flex">
@@ -118,7 +121,7 @@
                       <a class="nav-link" href="<?php echo site_url( '/blog' ); ?>">Blog</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="<?php echo site_url( '/about-us' ); ?>">About Us</a>
+                      <a class="nav-link" href="<?php echo site_url( '/about-us' ); ?>">About</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="<?php echo site_url( '/category/flutter' ); ?>">Flutter</a>
