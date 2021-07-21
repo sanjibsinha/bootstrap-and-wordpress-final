@@ -57,6 +57,35 @@ function sinha_book_init() {
 	register_post_type( 'book', $args );
 }
 
+// Theme options
+add_theme_support( 'menus' );
+add_theme_support( 'post_thumbnails' );
+add_theme_support( 'widgets' );
+
+// register sidebars
+function my_sidebars() {
+
+	regsister_sidebar(
+		array(
+			'name' => 'Page Sidebar',
+			'id' => 'page-sidebar',
+			'before_title' => '<h4 class="widget-title"',
+			'after_title' => '</h4>'
+		)
+	);
+
+	regsister_sidebar(
+		array(
+			'name' => 'Blog Sidebar',
+			'id' => 'blog-sidebar',
+			'before_title' => '<h4 class="widget-title"',
+			'after_title' => '</h4>'
+		)
+	);
+
+}
+
+add_action( 'widget_init', 'my_sidebars' );
 
 
      
